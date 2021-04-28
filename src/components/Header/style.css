@@ -1,9 +1,49 @@
 .header-container {
-    background-color: gray;
-    padding: 2rem;
-    height: 100px;
+    background-color: black;
+    color: white;
     display: flex;
-    justify-content: center;
+    padding: 0 2rem 0;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    height: 80px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.nav-element {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 3rem;
+}
+
+.nav-element:hover, .active {
+    border-bottom: 2px solid white;
+}
+
+.socials-container {
+    display: flex;
+    align-items: center;
+}
+
+.socials-container p{
+    margin-top: -1%;
+}
+
+.WA-icon {
+    margin-right: .5rem;
+}
+
+.vertical-break {
+    border-left: 1px solid white;
+    height: 20px;
+    margin-left: 1rem;
+}
+
+.socials-container a img{
+    margin-left: 1.5rem;
 }
