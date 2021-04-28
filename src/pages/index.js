@@ -4,13 +4,15 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Header from '../components/Header/Header'
+import Hero from '../components/Hero/Hero'
+import Lifestyle from '../components/Lifestyle/Lifestyle'
 
 
 const IndexPage = () => (
   <Layout>
     <Header/>
-    <h1>Umbra</h1>
-    
+    <Hero/>
+    <Lifestyle />
   </Layout>
 )
 
