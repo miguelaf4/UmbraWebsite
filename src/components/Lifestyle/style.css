@@ -1,26 +1,63 @@
 .life-container {
     display: flex;
     background-color: black;
+    max-height: 700px;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding:5rem 5% 0;
 
     background-color: black;
     color: white;
-    width: 50%;
-    max-width: 50%;
+    width: 40%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.info-container h1{
+    font-size: 24px;
+    margin-bottom: 3rem;
 }
 
 .img-carousel {
-    width: 50%;
-    max-width: 50%;
+    width: 60%;
 }
 
 .img-carousel img{
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.benefits {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.benefits ul{
+    list-style: none;
+}
+
+.benefits li{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.benefits li img{
+    height: 48px;
+    width: 48px;
+    margin-right: 0.5rem;
+}
+
+.benefits h4{
+    margin-bottom: 2rem;
+}
+
+.left-side {
+    margin-right: 20%;
 }
