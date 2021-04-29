@@ -4,12 +4,13 @@ import WAIcon from '../../images/whats-icon.svg'
 import FBIcon from '../../images/fb-icon.svg'
 import IGIcon from '../../images/insta-icon.svg'
 import YTIcon from '../../images/yt-icon.svg'
+import Logo from '../../images/UmbraLogo.png'
 
 const Header = () => {
     return (
         <div className="header-container">
             <div className="logo-container">
-                <h2>UMBRA</h2>
+                <img src={Logo} alt="Umbra Logo"/>
             </div>
             <div className="nav-container">
                 <a href="/" className="nav-element">

@@ -2,11 +2,24 @@
     background-color: black;
     color: white;
     display: flex;
-    padding: 0 2rem 0;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 80px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+
+    font-family: 'Trade';
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.logo-container img{
+    width: 70%;
+    height: 100%;
 }
 
 .nav-container {
@@ -16,10 +29,11 @@
     height: 100%;
 }
 .nav-element {
+    font-size: 12px;
     display: flex;
     align-items: center;
     height: 100%;
-    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .nav-element:hover, .active {
