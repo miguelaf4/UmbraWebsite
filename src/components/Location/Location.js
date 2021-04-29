@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import Mapa from '../../images/MapaUmbra.png'
+import Mapa from './MapaUmbra.png'
 
 import Edu from '../../images/Iconos/Education.png'
 import Shop from '../../images/Iconos/Shop.png'
