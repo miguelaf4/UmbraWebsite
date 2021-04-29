@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import Lifestyle from '../components/Lifestyle/Lifestyle'
+import Location from '../components/Location/Location'
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Header/>
     <Hero/>
     <Lifestyle />
+    <Location />
   </Layout>
 )
 
