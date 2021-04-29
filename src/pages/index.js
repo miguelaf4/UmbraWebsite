@@ -13,8 +13,8 @@ import Lifestyle from '../components/Lifestyle/Lifestyle'
 const IndexPage = () => (
   <Layout>
     <Header/>
-    <Section1/>
     <Hero/>
+    <Section1/>
     <Lifestyle />
   </Layout>
 )
