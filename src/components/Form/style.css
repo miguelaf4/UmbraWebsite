@@ -1,0 +1,20 @@
+.first-container{
+    display: flex;
+    background-color: #c0c0c0;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    padding:6rem 10% 6rem;
+}
+.photo{
+    display: flex;
+    width: 50%;
+
+}
+.photo img{
+    height: 100%;
+}

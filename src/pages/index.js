@@ -8,7 +8,7 @@ import Section2 from "../components/Section1/Section2"
 import Hero from '../components/Hero/Hero'
 import Lifestyle from '../components/Lifestyle/Lifestyle'
 import Location from '../components/Location/Location'
-
+import Form from '../components/Form/Form'
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +19,7 @@ const IndexPage = () => (
     <Section2/>
     <Lifestyle />
     <Location />
+    <Form/>
   </Layout>
 )
 
