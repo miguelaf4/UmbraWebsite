@@ -5,28 +5,35 @@ import FBIcon from '../../images/fb-icon.svg'
 import IGIcon from '../../images/insta-icon.svg'
 import YTIcon from '../../images/yt-icon.svg'
 import Logo from '../../images/UmbraLogo.png'
-
+import { ScrollingProvider, Section } from "react-scroll-section"
+import { Link } from 'react-scroll';
 const Header = () => {
+   
+
     return (
         <div className="header-container">
             <div className="logo-container">
                 <img src={Logo} alt="Umbra Logo"/>
             </div>
             <div className="nav-container">
-                <a href="/" className="nav-element">
-                    CONCEPTO
+                <a  className="nav-element">
+                    <Link activeClass="active" to="section1" spy={true} smooth={true} duration={1000}> CONCEPTO </Link>
                 </a>
-                <a href="/" className="nav-element">
-                    DEPARTAMENTOS
+                <a  className="nav-element">
+                <Link activeClass="active" to="departementos" spy={true} smooth={true} duration={1000}> DEPARTAMENTOS </Link>
+                    
                 </a>
-                <a href="/" className="nav-element">
-                    LIFESTYLE
+                <a   className="nav-element">
+                <Link activeClass="active" to="lifestyle" spy={true} smooth={true} duration={1000}> LIFESTYLE </Link>
+                    
                 </a>
-                <a href="/" className="nav-element">
-                    UBICACIÓN
+                <a   className="nav-element">
+                <Link activeClass="active" to="ubicacion" spy={true} smooth={true} duration={1000}> UBICACIÓN </Link>
+                    
                 </a>
-                <a href="/" className="nav-element">
-                    CONTACTO
+                <a href="/"  className="nav-element">
+                <Link activeClass="active" to="contacto" spy={true} smooth={true} duration={1000}> CONTACTO </Link>
+                    
                 </a>
                
                 
