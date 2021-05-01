@@ -30,6 +30,12 @@ body {
   font-family: 'Optima';
   background-color: white;
 }
+input{
+  font-family:'Optima' ;
+}
+select .ejemplo{
+  font-family: 'Optima';
+}
 
 h1,h2,h3,h4,h5 {
   font-family: 'Trade';
