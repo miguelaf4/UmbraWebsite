@@ -4,7 +4,7 @@ import Edificio from '../../images/building/building_form.jpg'
 
 const Form = () => {
     return (
-        <div className="first-container">
+        <div className="form-container-wrapper">
             <div className="form-container">
                 <h1>Es momento de obtener tu lugar verdadero</h1>  
                 <br/>
@@ -20,8 +20,10 @@ const Form = () => {
                         <option value='3'>3</option>
                     </select>
                     <input type="text" class='fullname' name='Nombre Cliente' id='nombre' placeholder='Nombre Completo'></input>
+                    <div className="row-contact">
                     <input type="tel" class='whats' name='Teléfono/Whatsapp' id='phoneNumber' placeholder='Whatsapp'></input>
                     <input type='email' class='mail' name='Correo electrónico' id='email' placeholder='Email'></input>
+                    </div>
                     <input type="submit" class='envio' value="ENVIAR"></input>
                 </form>
             </div>

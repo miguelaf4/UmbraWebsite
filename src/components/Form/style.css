@@ -1,14 +1,14 @@
-.first-container{
+.form-container-wrapper{
     display: flex;
     background-color: #ebebeb;
-    
+    height: 80vh;
 }
 .form-container{
     display: flex;
     flex-direction: column;
     width: 30%;
     align-content: center;
-    padding:6rem 10% 6rem;
+    padding:3rem 10% 6rem;
     text-align: right;
 }
 .form-container h1{
@@ -17,33 +17,35 @@
 .photo{
     display: flex;
     width: 50%;
-
+    height: 100%;
 }
 select{
-    height: 2rem;
+    height: 3rem;
     width: 100%;
     background-color: #d7d7d7;
     margin-bottom: 1rem;
-    border-radius:8px;
+    border-radius:20px;
     border: 0;
     padding-left: 10px;
+    padding-right: 1rem;
+    font-family: 'Optima';
 }
 
 .fullname{
-    height: 1.9rem;
+    height: 3rem;
     width: 97%;
     background-color: #d7d7d7;
     margin-bottom: 1rem;
-    border-radius:8px;
+    border-radius:20px;
     border: 0;
     padding-left: 15px;
     color: black;
 }
 .whats{
-    height: 2rem;
+    height: 3rem;
     width: 45%;
     background-color: #d7d7d7;
-    border-radius:8px;
+    border-radius:20px;
     border: 0;
     padding-left: 15px;
     margin-right: 15px;
@@ -59,25 +61,33 @@ select{
     opacity: 1; 
   }
 .mail{
-    height: 2rem;
+    height: 3rem;
     width: 45%;
     background-color: #d7d7d7;
-    border-radius:8px;
+    border-radius:20px;
     border: 0;
     padding-left: 15px;
 }
 
 .envio{
     margin-top: 1rem;
-    size: 100%;
-    border: 3px solid black;
+    height: 3rem;
+    border: 2px solid black;
     background-color: #ebebeb;
-    padding: 0.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius:8px;
-
+    padding: 0 2rem 0;
+    border-radius:20px;
+    font-family: 'Trade';
 }
+
+.envio:hover {
+    background-color: black;
+    color: white;
+}
+
 .ejemplo{
     font-family: 'Optima';
+}
+
+.row-contact {
+    display: flex;
 }

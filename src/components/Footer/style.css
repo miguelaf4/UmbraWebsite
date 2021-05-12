@@ -1,0 +1,93 @@
+
+.footer-container {
+    display: flex;
+    background-color: black;
+    color: rgb(185, 185, 185);
+    padding: 30px 20px 30px;
+    font-size: 13px;
+    justify-content: center;
+
+}
+
+.footer-container span {
+    text-transform: uppercase;
+    font-family: 'Trade';
+}
+
+.socials-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.socials-footer-container a img{
+    margin-right: 1.5rem;
+}
+
+.datos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.datos-container img {
+    height: 50px;
+    width: 30px;
+    margin-bottom: 2rem;
+}
+
+.datos-container p{
+    margin-bottom: 2rem;
+}
+
+.datos-inner-container {
+    display: flex;
+}
+
+.tel-container {
+    margin-right: 1rem;
+}
+
+.menu-container {
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+
+.menu-container ul {
+    margin-top: 3rem;
+    list-style: none;
+    
+}
+
+.menu-container ul li {
+    margin-bottom: .5rem;
+}
+
+.menu-container a {
+    color: rgb(185, 185, 185);
+}
+
+.horario-container{
+    margin-left: 4rem;
+}
+
+.horario-container {
+    margin-top: 2rem;
+    width: 20%;
+}
+
+.horario-container p {
+    margin-top: 3rem;
+}
+
+.horario-container ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.logos-container{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

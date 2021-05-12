@@ -9,6 +9,7 @@ import Hero from '../components/Hero/Hero'
 import Lifestyle from '../components/Lifestyle/Lifestyle'
 import Location from '../components/Location/Location'
 import Form from '../components/Form/Form'
+import Footer from '../components/Footer/Footer'
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <Lifestyle />
     <Location />
     <Form/>
+    <Footer/>
   </Layout>
 )
 
