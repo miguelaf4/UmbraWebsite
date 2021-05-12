@@ -11,8 +11,16 @@ import Security from '../../images/Iconos/noun_Surveillance_3627951.png'
 import Elevator from '../../images/Iconos/noun_Elevator_814611.png'
 import Parking from '../../images/Iconos/noun_Parking_2508438.png'
 import Trash from '../../images/Iconos/Trash.png'
+import { Slide } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
+import Depa from './inside-apartment.jpg'
 
 
+const slideImages = [
+    '../../images/Iconos/Trash.png',
+    '../../images/Iconos/Trash.png',
+    '../../images/Iconos/Trash.png'
+];
 
 const Lifestyle = () => {
     return (
@@ -43,8 +51,30 @@ const Lifestyle = () => {
                 </div>
 
             </div>
+            {/* <div className="img-carousel">
+                
+            </div> */}
             <div className="img-carousel">
-                <img src={Placeholder} alt=""/>
+            <Slide easing="ease">
+            <div className="each-slide">
+                <div>
+                    <img src={Placeholder} alt=""/>
+
+                </div>
+            </div>
+            <div className="each-slide">
+                <div>
+                    <img src={Depa  } alt=""/>
+
+                </div>
+            </div>
+            <div className="each-slide">
+                <div>
+                    <img src={Placeholder} alt=""/>
+
+                </div>
+            </div>
+            </Slide>
             </div>
             
         </div>
