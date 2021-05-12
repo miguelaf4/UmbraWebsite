@@ -1,4 +1,5 @@
 import * as React from "react"
+import { ScrollingProvider, Section } from "react-scroll-section";
 
 import Seo from "../components/seo"
 import Layout from "../components/layout"
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Seo title="Umbra True Living" />
     <Header/>
     <Hero/>
+    
     <Section1/>
     <Section2/>
     <Lifestyle />

@@ -16,7 +16,7 @@ import Trash from '../../images/Iconos/Trash.png'
 
 const Lifestyle = () => {
     return (
-        <div className="life-container">
+        <div className="life-container"  id="lifestyle">
             <div className="info-container">
                 <h1>Amenidades y servicios creados para un estilo de vida moderno</h1>
                 <p>Umbra cuenta con amenidades y servicios que suceden en el interior del desarrollo y que enriquecen el estilo de vida de sus habitantes.</p>

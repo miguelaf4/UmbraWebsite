@@ -4,7 +4,7 @@ import Edificio1 from '../../images/building/building_1.jpg'
 
 const Section1 = () => {
     return (
-        <div className="first-container">
+        <div className="first-container" id="section1">
             <div className="text-container">
                 
                 <p>Desarollo pensado para elevar las experiencias de sus habitantes con departementos que se ajustan a las necesiadades de un concepto de vida dinámico e integral.

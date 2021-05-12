@@ -9,7 +9,7 @@ import Centro from '../../images/Iconos/Church.png'
 
 const Location = () => {
     return (
-        <div className="location-container">
+        <div className="location-container" id="ubicacion">
             
             <div className="img-carousel">
                 <img src={Mapa} alt="Mapa Umbra"/>
