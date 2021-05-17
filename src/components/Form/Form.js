@@ -27,7 +27,7 @@ const Form = () => {
                     <input type="submit" class='envio' value="ENVIAR"></input>
                 </form>
             </div>
-            <div className="photo">
+            <div className="img-carousel">
                 <img src={Edificio} alt='Edificio'></img>
             </div>
         </div>

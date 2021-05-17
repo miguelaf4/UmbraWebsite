@@ -1,7 +1,7 @@
 .life-container {
     display: flex;
     background-color: black;
-    height: 700px;
+    max-height: 750px;
 }
 
 .info-container {
@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     padding:5rem 5% 0;
-
+    justify-content: center;
     background-color: black;
     color: white;
     width: 40%;
@@ -23,7 +23,7 @@
 }
 
 .img-carousel {
-    width: 60%;
+    width: 50%;
 }
 
 .img-carousel img{
@@ -66,6 +66,18 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 696px;
+    height: 750px;
+  }
+
+  @media (max-width: 767.98px) {
+      .info-container {
+          justify-content: center;
+          text-align: center;
+          padding:5rem 5% 5rem;
+      }
+
+      .benefits {
+          align-self: center;
+      }
   }
   

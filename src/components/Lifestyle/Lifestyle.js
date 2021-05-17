@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 import './style.css'
 import Placeholder from './inside-apartment.jpg'
 import Pool from '../../images/Iconos/noun_Swimming Pool_936976.png'
@@ -24,8 +22,8 @@ const slideImages = [
 
 const Lifestyle = () => {
     return (
-        <div className="life-container">
-            <div className="info-container">
+        <div className="life-container responsive-layout">
+            <div className="info-container w-sm-100">
                 <h1>Amenidades y servicios creados para un estilo de vida moderno</h1>
                 <p>Umbra cuenta con amenidades y servicios que suceden en el interior del desarrollo y que enriquecen el estilo de vida de sus habitantes.</p>
                 
@@ -54,7 +52,7 @@ const Lifestyle = () => {
             {/* <div className="img-carousel">
                 
             </div> */}
-            <div className="img-carousel">
+            <div className="img-carousel w-sm-100">
             <Slide easing="ease">
             <div className="each-slide">
                 <div>

@@ -6,7 +6,7 @@ import Edificio from '../../images/building/building_2.jpg'
 const Section2 = () => {
     return (
         <div className="second-container">
-            <div className="photo">
+            <div className="img-carousel">
                 <img src={Edificio} alt='Edificio1'></img>
             </div>
             <div className="text-container-alt">

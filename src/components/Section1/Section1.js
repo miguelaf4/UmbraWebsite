@@ -19,7 +19,7 @@ const Section1 = () => {
                 </p>
 
             </div>
-            <div className="photo">
+            <div className="img-carousel">
                 <img src={Edificio1} alt='Edificio1'></img>
             </div>
         </div>

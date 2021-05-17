@@ -1,13 +1,14 @@
 .first-container{
     display: flex;
     background-color: black;
-    height: 450px;
+    max-height: 750px;
 }
 .second-container{
     display: flex;
-    background-color:#c0c0c0);
-    height: 450px;
+    background-color:#c0c0c0;
+    max-height: 750px;
 }
+
 .text-container{ 
     display: flex;
     flex-direction: column;
@@ -19,7 +20,6 @@
     width: 30%;
     height: 100%;
     line-height: 1.5;
-    font-size: 1.15vw;
 
 }
 
@@ -32,10 +32,7 @@
     background-color: #c0c0c0;
     color: black;
     width: 30%;
-    height: 89.5%;
     line-height: 1.5;
-    font-size: 1.4vw;
-
 }
 .text-container ul{
     padding-left: 1rem;
@@ -44,7 +41,6 @@
     padding-left: 1rem;
 }
 .text-container-alt ul li{
-    font-size: 1.14vm;
     margin-bottom: 1rem;
 }
 .photo{
