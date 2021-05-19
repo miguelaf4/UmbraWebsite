@@ -5,11 +5,11 @@ import Edificio from '../../images/building/building_2.jpg'
 
 const Section2 = () => {
     return (
-        <div className="second-container">
-            <div className="img-carousel">
+        <div className="second-container responsive-layout">
+            <div className="img-carousel w-sm-100">
                 <img src={Edificio} alt='Edificio1'></img>
             </div>
-            <div className="text-container-alt">
+            <div className="text-container-alt w-sm-100">
                 <h3>UMBRA ¿Por qué es tu mejor opcion para INVERTIR?</h3>    
                 <br/>
                 <ul>

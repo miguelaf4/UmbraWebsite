@@ -4,8 +4,8 @@ import Edificio from '../../images/building/building_form.jpg'
 
 const Form = () => {
     return (
-        <div className="form-container-wrapper">
-            <div className="form-container">
+        <div className="form-container-wrapper responsive-layout">
+            <div className="form-container w-sm-100">
                 <h1>Es momento de obtener tu lugar verdadero</h1>  
                 <br/>
                 <p>
@@ -27,7 +27,7 @@ const Form = () => {
                     <input type="submit" class='envio' value="ENVIAR"></input>
                 </form>
             </div>
-            <div className="img-carousel">
+            <div className="img-carousel w-sm-100">
                 <img src={Edificio} alt='Edificio'></img>
             </div>
         </div>

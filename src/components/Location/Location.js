@@ -9,13 +9,13 @@ import Centro from '../../images/Iconos/Church.png'
 
 const Location = () => {
     return (
-        <div className="location-container">
+        <div className="location-container responsive-layout">
             
-            <div className="img-carousel">
+            <div className="img-carousel w-sm-100">
                 <img src={Mapa} alt="Mapa Umbra"/>
             </div>
             
-            <div className="info-location-container">
+            <div className="info-location-container w-sm-100">
                 <h1>Ubicados dentro de un entorno único.</h1>
                 <p>Umbra se encuentra en un punto privilegiado frente a la Universidad Marista y las principales
                     universidades de Mérida, conecta con vialidades importantes y los mejores puntos de interés para su habitantes.

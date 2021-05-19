@@ -13,6 +13,7 @@ import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import Depa from './inside-apartment.jpg'
 
+import Slider from './Slider'
 
 const slideImages = [
     '../../images/Iconos/Trash.png',
@@ -53,7 +54,7 @@ const Lifestyle = () => {
                 
             </div> */}
             <div className="img-carousel w-sm-100">
-            <Slide easing="ease">
+            {/* <Slide easing="ease">
             <div className="each-slide">
                 <div>
                     <img src={Placeholder} alt=""/>
@@ -72,7 +73,10 @@ const Lifestyle = () => {
 
                 </div>
             </div>
-            </Slide>
+            </Slide> */}
+            
+            <Slider />
+
             </div>
             
         </div>

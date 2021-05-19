@@ -5,10 +5,13 @@ import FBIcon from '../../images/fb-icon.svg'
 import IGIcon from '../../images/insta-icon.svg'
 import YTIcon from '../../images/yt-icon.svg'
 import Logo from '../../images/UmbraLogo.png'
+import '../layout.css'
+
 
 const Header = () => {
     return (
-        <div className="header-container">
+        <nav role="navigation" className="header-container">
+
             <div className="logo-container">
                 <img src={Logo} alt="Umbra Logo"/>
             </div>
@@ -46,7 +49,36 @@ const Header = () => {
                     <img src={YTIcon} alt="Youtbe Icon"/>
                 </a>
             </div>
-        </div>
+            
+            <div id="menuToggle">
+                <input type="checkbox" />
+                
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                    <a href="/" className="nav-element">
+                    <li>CONCEPTO</li> 
+                    </a>
+                    <a href="/" className="nav-element">
+                        <li>DEPARTAMENTOS</li>
+                    </a>
+                    <a href="/" className="nav-element">
+                    <li>LIFESTYLE</li> 
+                    </a>
+                    <a href="/" className="nav-element">
+                    <li>UBICACIÓN</li> 
+                    </a>
+                    <a href="/" className="nav-element">
+                    <li>CONTACTO</li> 
+                    </a>
+                </ul>
+
+                
+            </div>
+
+        </nav>
     )
 }
 

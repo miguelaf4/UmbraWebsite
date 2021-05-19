@@ -9,7 +9,7 @@ import Arkm from '../../images/arkm.png'
 
 const Footer = () => {
     return (
-        <div className="footer-container">
+        <div className="footer-container responsive-layout">
             <div className="datos-container">
                 <img src={Umbra} alt="Logo Umbra"/>
                 <span>Oficina</span>
@@ -36,7 +36,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className="menu-container">
+            <div className="menu-container d-none d-md-block">
                 <span>Menú</span>
                 <ul>
                     <li><a href="">Inicio</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <li><a href="">Contacto</a></li>
                 </ul>
             </div>
-            <div className="horario-container">
+            <div className="horario-container d-none d-md-block">
                 <span>Horarios de oficina</span>
                 <p>Con gusto te recibimos en nuestras oficinas en los siguientes horarios:</p>
                 <ul>
