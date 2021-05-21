@@ -4,22 +4,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 100px;
     width: 100%;
     position: fixed;
-
+    z-index: 10;
     font-family: 'Trade';
 }
 
 .logo-container {
     display: flex;
     justify-content: center;
-    max-width: 200px;
+    max-width: 150px;
+    min-width: 40px;
+    margin-left: 20px;
 }
 
 .logo-container img{
-    width: 70%;
+    width: 100%;
     height: 100%;
+    
 }
 
 .nav-container {
@@ -36,6 +39,10 @@
     margin-right: 3rem;
 }
 
+.nav-element:last-child {
+    margin-right: 0;
+}
+
 .nav-element:hover, .active {
     border-bottom: 2px solid white;
 }
@@ -47,7 +54,7 @@
 }
 
 .socials-container p{
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -1%;
 }
 
@@ -211,7 +218,9 @@
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 1150px){
+
+
     .nav-container {
         display: none;
     }
@@ -222,7 +231,7 @@
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
     #menuToggle {
         display: none;
     }

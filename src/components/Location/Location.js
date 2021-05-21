@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import Mapa from './MapaUmbra.png'
+import Mapa from '../../images/mapa-umbra.png'
 
 import Edu from '../../images/Iconos/Education.png'
 import Shop from '../../images/Iconos/Shop.png'
@@ -9,7 +9,7 @@ import Centro from '../../images/Iconos/Church.png'
 
 const Location = () => {
     return (
-        <div className="location-container responsive-layout">
+        <div className="location-container responsive-layout" id="location">
             
             <div className="img-carousel w-sm-100">
                 <img src={Mapa} alt="Mapa Umbra"/>

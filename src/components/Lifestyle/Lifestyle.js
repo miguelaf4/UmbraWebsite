@@ -23,7 +23,7 @@ const slideImages = [
 
 const Lifestyle = () => {
     return (
-        <div className="life-container responsive-layout">
+        <div className="life-container responsive-layout" id="lifestyle">
             <div className="info-container w-sm-100">
                 <h1>Amenidades y servicios creados para un estilo de vida moderno</h1>
                 <p>Umbra cuenta con amenidades y servicios que suceden en el interior del desarrollo y que enriquecen el estilo de vida de sus habitantes.</p>

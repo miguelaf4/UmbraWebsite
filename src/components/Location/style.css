@@ -56,3 +56,9 @@
 .distance p{
     margin-bottom: 0;
 }
+
+@media (max-width: 1150px) {
+    .info-location-container {
+        padding: 5rem 5% 5rem;
+    }
+}

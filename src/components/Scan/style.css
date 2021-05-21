@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 3rem 0 3rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .scan-container h1 {
@@ -14,7 +14,7 @@
 
 .qr-container img{
     margin-top: 2rem;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 

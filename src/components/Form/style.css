@@ -91,3 +91,13 @@ select{
 .row-contact {
     display: flex;
 }
+
+@media (max-width: 1150px) {
+    .form-container h1 {
+        text-align: center;
+    }
+    
+    .form-container p{
+        text-align: center;
+    }
+}

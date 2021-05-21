@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.css'
-import Edificio from '../../images/building/building_form.jpg'
+import Edificio from '../../images/02.jpg'
 
 const Form = () => {
     return (
-        <div className="form-container-wrapper responsive-layout">
+        <div className="form-container-wrapper responsive-layout" id="contacto">
             <div className="form-container w-sm-100">
                 <h1>Es momento de obtener tu lugar verdadero</h1>  
                 <br/>

@@ -13,15 +13,15 @@ const Footer = () => {
             <div className="datos-container">
                 <img src={Umbra} alt="Logo Umbra"/>
                 <span>Oficina</span>
-                <p>Calle Aguilas, Temozón Norte, S/N de Col 27, Mérida, Yuc.</p>
+                <p>Calle 33 #343 por 36D y 36C, Col. San Ramón Norte, Mérida, Yuc.</p>
                 <div className="datos-inner-container">
                     <div className="tel-container">
                         <span>TEL.</span>
-                        <p>+032 3456 7890</p>
+                        <p>9994480966</p>
                     </div>
                     <div className="email-cotainer">
                         <span>EMAIL</span>
-                        <p>info@umbramx.com</p>
+                        <p>contacto@umbramx.com</p>
                     </div>
                 </div>
                 <div className="socials-footer-container">
@@ -50,9 +50,9 @@ const Footer = () => {
                 <span>Horarios de oficina</span>
                 <p>Con gusto te recibimos en nuestras oficinas en los siguientes horarios:</p>
                 <ul>
-                    <li>Lun-Vie: 9.00 am - 6.00 pm</li>
-                    <li>Sábado: 9.00 am - 6.00 pm</li>
-                    <li>Domingo: Cerrado</li>
+                    <li>Lun-Vie: 9.00 am - 7.00 pm</li>
+                    <li>Sábado: 9.00 am - 2.00 pm</li>
+                    <li>Domingo: 9.00 am - 2.00 pm</li>
                 </ul>
             </div>
             <div className="logos-container">

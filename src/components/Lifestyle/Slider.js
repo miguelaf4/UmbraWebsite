@@ -7,6 +7,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import Depa from './inside-apartment.jpg'
+
+import Roof from '../../images/23.jpg'
+import Pool from '../../images/25.jpg'
+import Bar from '../../images/20.jpg'
+import Lounge from '../../images/06.jpg'
 import "./style.css";
 
 
@@ -28,15 +33,16 @@ export default function Slider() {
     <>
     <Swiper
     autoplay = {{
-        "delay": 2000
+        "delay": 3000
     }}
     pagination={{
       "dynamicBullets": true
-    }} className="mySwiper">
-  <SwiperSlide> <img src={Depa} alt="" srcset="" /></SwiperSlide>
-  <SwiperSlide> <img src={Depa} alt="" srcset="" /> </SwiperSlide>
-  <SwiperSlide> <img src={Depa} alt="" srcset="" /> </SwiperSlide>
-  <SwiperSlide> <img src={Depa} alt="" srcset="" /> </SwiperSlide>
+    }} 
+    className="mySwiper">
+  <SwiperSlide> <img src={Roof} alt="" srcset="" /></SwiperSlide>
+  <SwiperSlide> <img src={Pool} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Bar} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Lounge} alt="" srcset="" /> </SwiperSlide>
   </Swiper>
     </>
   )

@@ -16,28 +16,28 @@ const Header = () => {
                 <img src={Logo} alt="Umbra Logo"/>
             </div>
             <div className="nav-container">
-                <a href="/" className="nav-element">
+                <a href="#concepto" className="nav-element">
                     CONCEPTO
                 </a>
                 <a href="/" className="nav-element">
                     DEPARTAMENTOS
                 </a>
-                <a href="/" className="nav-element">
+                <a href="#lifestyle" className="nav-element">
                     LIFESTYLE
                 </a>
-                <a href="/" className="nav-element">
+                <a href="#location" className="nav-element">
                     UBICACIÓN
                 </a>
-                <a href="/" className="nav-element">
+                <a href="#contacto" className="nav-element">
                     CONTACTO
                 </a>
                
                 
             </div>
             <div className="socials-container">
-                <img src={WAIcon} alt="Whatsapp Icon" className="WA-icon"/>
-                <p>999.412.2963</p>
-                <div class="vertical-break"></div>
+                <img src={WAIcon} alt="Whatsapp Icon" className="WA-icon "/>
+                <p className="wa-number">9994480966</p>
+                <div className="vertical-break"></div>
 
                 <a href="#">
                     <img src={FBIcon} alt="Facebook Icon"/>
@@ -58,19 +58,19 @@ const Header = () => {
                 <span></span>
                 
                 <ul id="menu">
-                    <a href="/" className="nav-element">
+                    <a href="#concepto" className="nav-element">
                     <li>CONCEPTO</li> 
                     </a>
                     <a href="/" className="nav-element">
                         <li>DEPARTAMENTOS</li>
                     </a>
-                    <a href="/" className="nav-element">
+                    <a href="#lifestyle" className="nav-element">
                     <li>LIFESTYLE</li> 
                     </a>
-                    <a href="/" className="nav-element">
+                    <a href="#location" className="nav-element">
                     <li>UBICACIÓN</li> 
                     </a>
-                    <a href="/" className="nav-element">
+                    <a href="#contacto" className="nav-element">
                     <li>CONTACTO</li> 
                     </a>
                 </ul>
