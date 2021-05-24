@@ -1,7 +1,7 @@
 .form-container-wrapper{
     display: flex;
     background-color: #ebebeb;
-    max-height: 750px;
+    max-height: 550px;
 }
 .form-container{
     display: flex;
