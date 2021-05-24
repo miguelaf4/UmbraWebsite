@@ -12,6 +12,10 @@ import Roof from '../../images/23.jpg'
 import Pool from '../../images/25.jpg'
 import Bar from '../../images/20.jpg'
 import Lounge from '../../images/06.jpg'
+import Img22 from '../../images/22.jpg'
+import Img21 from '../../images/21.jpg'
+import Img5 from '../../images/05.jpg'
+import Img35 from '../../images/35.jpg'
 import "./style.css";
 
 
@@ -43,6 +47,10 @@ export default function Slider() {
   <SwiperSlide> <img src={Pool} alt="" srcset="" /> </SwiperSlide>
   <SwiperSlide> <img src={Bar} alt="" srcset="" /> </SwiperSlide>
   <SwiperSlide> <img src={Lounge} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Img5} alt="" srcset="" /></SwiperSlide>
+  <SwiperSlide> <img src={Img21} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Img22} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Img35} alt="" srcset="" /> </SwiperSlide>
   </Swiper>
     </>
   )

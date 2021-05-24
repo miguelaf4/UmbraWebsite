@@ -39,10 +39,10 @@ const Header = () => {
                 <p className="wa-number">9994480966</p>
                 <div className="vertical-break"></div>
 
-                <a href="#">
+                <a href="https://www.facebook.com/Umbramx/?fref=mentions" target="_blank">
                     <img src={FBIcon} alt="Facebook Icon"/>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/umbramx_/" target="_blank">
                     <img src={IGIcon} alt="Instagram Icon"/>
                 </a>
                 <a href="#">

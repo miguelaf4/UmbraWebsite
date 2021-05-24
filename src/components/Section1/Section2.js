@@ -1,11 +1,11 @@
 import React from 'react'
 import './style.css'
 
-import Edificio from '../../images/building/building_2.jpg'
+import Edificio from '../../images/19.jpg'
 
 const Section2 = () => {
     return (
-        <div className="second-container responsive-layout">
+        <div className="second-container responsive-layout" id="concepto2">
             <div className="img-carousel w-sm-100">
                 <img src={Edificio} alt='Edificio1'></img>
             </div>

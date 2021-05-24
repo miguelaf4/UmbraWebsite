@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import Edificio1 from '../../images/building/building_1.jpg'
+import Edificio1 from '../../images/15.jpg'
 
 const Section1 = () => {
     return (

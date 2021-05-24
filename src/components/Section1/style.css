@@ -1,24 +1,26 @@
 .first-container{
     display: flex;
     background-color: black;
-    max-height: 750px;
+    /* max-height: 750px; */
+    height: 100%;
 }
 .second-container{
     display: flex;
     background-color:#c0c0c0;
-    max-height: 750px;
+    /* max-height: 750px; */
 }
 
 .text-container{ 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:6rem 10% 6rem;
+    justify-content: center;
+    padding:3rem 10% 3rem;
 
     background-color: black;
     color: white;
     width: 30%;
-    height: 100%;
+    /* height: 100%; */
     line-height: 1.5;
 
 }
@@ -27,6 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding:3rem 10% 3rem ;
     
     background-color: #c0c0c0;
@@ -43,12 +46,21 @@
 .text-container-alt ul li{
     margin-bottom: 1rem;
 }
-.photo{
-    display: flex;
-    width: 50%;
-    height: 100%;
+
+
+#concepto img {
+    filter: grayscale(1);
 }
-.photo img{
-    width: 100%;
-    max-height: 100%;
+
+#concepto2 img {
+    filter: grayscale(1);
+}
+
+@media (max-width: 1024px) {
+    .text-container {
+        min-height: 450px;
+    }
+    .text-container-alt {
+        min-height: 450px;
+    }
 }

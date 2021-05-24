@@ -25,10 +25,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="socials-footer-container">
-                    <a href="#">
+                    <a href="https://www.facebook.com/Umbramx/?fref=mentions" target="_blank">
                         <img src={FBIcon} alt="Facebook Icon"/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/umbramx_/" target="_blank">
                         <img src={IGIcon} alt="Instagram Icon"/>
                     </a>
                     <a href="#">
@@ -39,11 +39,12 @@ const Footer = () => {
             <div className="menu-container d-none d-md-block">
                 <span>Menú</span>
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Departamentos</a></li>
-                    <li><a href="">Amenidades</a></li>
-                    <li><a href="">Ubicación</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#concepto">Concepto</a></li>
+                    <li><a href="#departamentos">Departamentos</a></li>
+                    <li><a href="#lifestyle">Amenidades</a></li>
+                    <li><a href="#location">Ubicación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             <div className="horario-container d-none d-md-block">

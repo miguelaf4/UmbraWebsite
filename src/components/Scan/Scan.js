@@ -10,7 +10,10 @@ const Scan = () => {
             <div className="qr-container">
                 <img src={Brochure} alt="Umbra Brochure" />
             </div>
+            <a href="/UmbraBrochure.pdf" className="btn btn-dark" download>Descargar 
+
             
+            </a>
         </div>
     )
 }
