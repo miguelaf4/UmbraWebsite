@@ -7,11 +7,15 @@
     
     background-image: url("../../images/08.jpg");
     background-size: cover;
+    background-position: right 90px;
+    background-repeat: no-repeat;
 
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: darken;
     font-family: 'Trade';
 }
+
+
 
 .hero-title {
     color: white;
@@ -50,6 +54,8 @@
 @media (max-width: 767.98px) {
     .hero-container {
         padding-left: 5%;
+        background-position: center 80px;
+        
     }
 
     .btn-container {

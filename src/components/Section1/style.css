@@ -4,6 +4,7 @@
     /* max-height: 750px; */
     height: 100%;
 }
+
 .second-container{
     display: flex;
     background-color:#c0c0c0;
@@ -47,14 +48,6 @@
     margin-bottom: 1rem;
 }
 
-
-#concepto img {
-    filter: grayscale(1);
-}
-
-#concepto2 img {
-    filter: grayscale(1);
-}
 
 @media (max-width: 1024px) {
     .text-container {

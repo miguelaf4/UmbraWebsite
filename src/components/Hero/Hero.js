@@ -6,8 +6,8 @@ const Hero = () => {
         <div className="hero-container">
             <h1 className="hero-title">FIND YOUR <br/> TRUE PLACE.</h1>
             <div className="btn-container">
-                <a href="/" className="btn btn-light" >CONOCE UMBRA</a>
-                <a href="/" className="btn btn-dark">CONTACTANOS</a>
+                <a href="#concepto" className="btn btn-light" >CONOCE UMBRA</a>
+                <a href="#contacto" className="btn btn-dark">CONTACTANOS</a>
             </div>
             
         </div>
