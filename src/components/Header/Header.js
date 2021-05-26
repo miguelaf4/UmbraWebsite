@@ -15,7 +15,7 @@ const Header = () => {
         <nav role="navigation" className="header-container">
 
             <div className="logo-container">
-                <a href="/"><img src={Logo} alt="Umbra Logo"/></a>
+                <a href="#"><img src={Logo} alt="Umbra Logo"/></a>
             </div>
             <div className="nav-container">
                 <div  className="nav-element">
@@ -43,19 +43,26 @@ const Header = () => {
             
             
             <div className="socials-container">
-                <img src={WAIcon} alt="Whatsapp Icon" className="WA-icon "/>
-                <p className="wa-number">9994480966</p>
-                <div className="vertical-break"></div>
+                <a href=" https://wa.me/9994480966" className="whats-container">
+                    <img src={WAIcon} alt="Whatsapp Icon" className="WA-icon "/>
+                    <p className="wa-number">9994480966</p>
+                </a>
+                
+                <div className="social-media-container">
+                    <div className="vertical-break"></div>
 
-                <a href="https://www.facebook.com/Umbramx/?fref=mentions" target="_blank">
-                    <img src={FBIcon} alt="Facebook Icon"/>
-                </a>
-                <a href="https://www.instagram.com/umbramx_/" target="_blank">
-                    <img src={IGIcon} alt="Instagram Icon"/>
-                </a>
-                <a href="#">
-                    <img src={YTIcon} alt="Youtbe Icon"/>
-                </a>
+                    <a href="https://www.facebook.com/Umbramx/?fref=mentions" target="_blank">
+                        <img src={FBIcon} alt="Facebook Icon"/>
+                    </a>
+                    <a href="https://www.instagram.com/umbramx_/" target="_blank">
+                        <img src={IGIcon} alt="Instagram Icon"/>
+                    </a>
+                    <a href="#">
+                        <img src={YTIcon} alt="Youtbe Icon"/>
+                    </a>
+                </div>
+
+                
             </div>
             
             <div id="menuToggle">
@@ -66,21 +73,21 @@ const Header = () => {
                 <span></span>
                 
                 <ul id="menu">
-                    <a href="#concepto" className="nav-element">
+                    <Link to="concepto" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                     <li>CONCEPTO</li> 
-                    </a>
-                    <a href="/" className="nav-element">
+                    </Link>
+                    <Link to="/" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                         <li>DEPARTAMENTOS</li>
-                    </a>
-                    <a href="#lifestyle" className="nav-element">
+                    </Link>
+                    <Link to="lifestyle" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                     <li>LIFESTYLE</li> 
-                    </a>
-                    <a href="#location" className="nav-element">
+                    </Link>
+                    <Link to="location" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                     <li>UBICACIÓN</li> 
-                    </a>
-                    <a href="#contacto" className="nav-element">
+                    </Link>
+                    <Link to="contacto" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                     <li>CONTACTO</li> 
-                    </a>
+                    </Link>
                 </ul>
 
                 

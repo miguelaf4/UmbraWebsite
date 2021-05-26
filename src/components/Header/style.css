@@ -215,8 +215,17 @@
 }
 
 
+.whats-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 1150px){
 
@@ -238,9 +247,19 @@
 }
 
 @media (max-width: 767.98px) {
-    .socials-container {
-        display: none;
+    .WA-icon {
+      margin-right: 2rem;
+    }  
+
+    .wa-number {
+      display: none;
     }
+
+    .social-media-container {
+      display: none;
+    }
+
+    
 
     #menuToggle {
         left: -60px;

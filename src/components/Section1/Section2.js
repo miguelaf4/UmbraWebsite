@@ -10,11 +10,11 @@ const Section2 = () => {
                 <img src={Edificio} alt='Edificio1'></img>
             </div>
             <div className="text-container-alt w-sm-100">
-                <h3>UMBRA ¿Por qué es tu mejor opcion para INVERTIR?</h3>    
+                <h3>UMBRA ¿Por qué es tu mejor opción para INVERTIR?</h3>    
                 <br/>
                 <ul>
                     <li>Ubicación privilegiada al norte de Mérida, Yucatán.</li>
-                    <li>Zona con gran desarollo y plus valía.</li>
+                    <li>Zona con gran desarrollo y plusvalía.</li>
                     <li> Sector de alta rentabilidad impulsada por su cercanía a universidades, centros comerciales y vialidades principales (Periférico, carretera Mérida-Progreso)</li>
                 </ul>
                 

@@ -5,9 +5,9 @@
     height: 90vh;
     padding-left: 15%;
     
-    background-image: url("../../images/08.jpg");
+    background-image: url("../../images/hero-img.png");
     background-size: cover;
-    background-position: right 90px;
+    background-position: center;
     background-repeat: no-repeat;
 
     background-color: rgba(0,0,0,0.3);
@@ -51,10 +51,15 @@
 
 }
 
+@media (max-width: 1024px) {
+    .hero-container {
+        background-image: url("../../images/hero-img-tablet.png");
+    }
+}
+
 @media (max-width: 767.98px) {
     .hero-container {
         padding-left: 5%;
-        background-position: center 80px;
         
     }
 

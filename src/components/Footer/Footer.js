@@ -53,7 +53,7 @@ const Footer = () => {
                 <ul>
                     <li>Lun-Vie: 9.00 am - 7.00 pm</li>
                     <li>Sábado: 9.00 am - 2.00 pm</li>
-                    <li>Domingo: 9.00 am - 2.00 pm</li>
+                    <li>Domingo: Cerrado</li>
                 </ul>
             </div>
             <div className="logos-container">
