@@ -97,3 +97,8 @@ a {
   }
   
 }
+
+._1bpcM {
+  position: fixed !important;
+  z-index: 100 !important;
+}

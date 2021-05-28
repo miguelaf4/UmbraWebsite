@@ -13,8 +13,15 @@ import Footer from '../components/Footer/Footer'
 import Scan from '../components/Scan/Scan'
 import Map from '../components/Room/Room'
 
+
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
+
+
+
 const IndexPage = () => (
-  <Layout>
+  <>
+    <Layout>
     <Seo title="Umbra True Living" />
     <Header/>
     <Hero/>
@@ -27,6 +34,9 @@ const IndexPage = () => (
     <Scan />
     <Footer/>
   </Layout>
+  <WhatsAppWidget phoneNumber="529994480966" message="¡Hola! Ponte en contacto con nuestro equipo." companyName="Umbra" textReplyTime="Te contestamos en unos minutos" sendButton="Enviar"/>
+  </>
+  
 )
 
 export default IndexPage

@@ -57,7 +57,11 @@
     margin-bottom: 0;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
+    .location-container {
+        flex-direction: column-reverse;
+    }
+
     .info-location-container {
         padding: 5rem 5% 5rem;
     }

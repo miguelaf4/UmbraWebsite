@@ -10,6 +10,8 @@ import { Link } from 'react-scroll';
 import '../layout.css'
 
 
+
+
 const Header = () => {
     return (
         <nav role="navigation" className="header-container">
@@ -43,7 +45,7 @@ const Header = () => {
             
             
             <div className="socials-container">
-                <a href=" https://wa.me/9994480966" className="whats-container">
+                <a href=" https://wa.me/529994480966" className="whats-container" target="_blank">
                     <img src={WAIcon} alt="Whatsapp Icon" className="WA-icon "/>
                     <p className="wa-number">9994480966</p>
                 </a>

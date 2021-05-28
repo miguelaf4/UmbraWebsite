@@ -105,12 +105,11 @@ object-fit: cover;
 @media (max-width: 1150px) {
     .info-container {
         justify-content: center;
-        text-align: center;
         padding:5rem 5% 5rem;
     }
 
     .benefits {
-        align-self: center;
+        align-self: left;
     }
 }
   

@@ -22,7 +22,7 @@ import "./style.css";
 // import Swiper core and required modules
 import SwiperCore, {
   Autoplay,
-  Pagination
+  Pagination,
 } from 'swiper/core';
 
 // install Swiper modules
