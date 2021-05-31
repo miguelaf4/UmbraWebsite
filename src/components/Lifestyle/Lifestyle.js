@@ -76,7 +76,7 @@ const Lifestyle = () => {
             </Slide> */}
             
             <Slider />
-
+            
             </div>
             
         </div>

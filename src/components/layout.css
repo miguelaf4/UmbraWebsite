@@ -101,4 +101,11 @@ a {
 ._1bpcM {
   position: fixed !important;
   z-index: 100 !important;
+  height: 56px !important;
+  width: 56px !important;
+}
+
+._2iWL7, ._1fOYS {
+  position: fixed !important;
+  z-index: 100 !important;
 }
