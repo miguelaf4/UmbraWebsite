@@ -73,7 +73,9 @@ a {
 
 @media (max-width:1024px) {
 
-  
+  .d-block {
+    display: block;
+  }
 
   .responsive-layout {
     flex-direction: column;

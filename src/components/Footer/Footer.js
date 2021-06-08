@@ -49,7 +49,7 @@ const Footer = () => {
             </div> */}
             <div className="horario-container d-none d-md-block">
                 <span>Horarios de oficina</span>
-                <p>Con gusto te recibimos en nuestras oficinas en los siguientes horarios:</p>
+                {/* <p>Con gusto te recibimos en nuestras oficinas en los siguientes horarios:</p> */}
                 <ul>
                     <li>Lun-Vie: 9.00 am - 7.00 pm</li>
                     <li>Sábado: 9.00 am - 2.00 pm</li>

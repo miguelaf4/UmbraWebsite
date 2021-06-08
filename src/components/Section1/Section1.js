@@ -7,14 +7,14 @@ const Section1 = () => {
         <div className="first-container responsive-layout" id="concepto">
             <div className="text-container w-sm-100">
                 
-                <p>Desarollo pensado para elevar las experiencias de sus habitantes con departementos que se ajustan a las necesiadades de un concepto de vida dinámico e integral.
+                <p>Desarollo pensado para elevar las experiencias de sus habitantes con departementos que se ajustan a las necesidades de un concepto de vida dinámico e integral.
                 <br/><br/> 
-                Umbra esta conformado por:
+                Umbra está conformado por:
                 
                 <ul>
                     <li>1 torre de 6 niveles</li>
                     <li>28 departamentos</li>
-                    <li>4 diferentos modelos</li> 
+                    <li>4 diferentes modelos</li> 
                 </ul>
                 </p>
 
