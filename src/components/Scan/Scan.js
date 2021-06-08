@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Brochure from './brochure.png'
 
+import PDF from './Brochure-UmbraTrueLiving.pdf'
 
 const Scan = () => {
     return (
@@ -10,7 +11,7 @@ const Scan = () => {
             <div className="qr-container">
                 <img src={Brochure} alt="Umbra Brochure" />
             </div>
-            <a href="/UmbraBrochure.pdf" className="btn btn-dark" download>Descargar 
+            <a href={PDF} className="btn btn-dark" download>Descargar 
 
             
             </a>

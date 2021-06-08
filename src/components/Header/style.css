@@ -39,13 +39,20 @@
     margin-right: 3rem;
 }
 
+
+
 .nav-element:last-child {
     margin-right: 0;
 }
 
-.nav-element:hover, .active {
+.nav-element:hover, .active{
     border-bottom: 2px solid white;
+    cursor: pointer;
 }
+
+/* .active {
+  border-bottom: none;
+} */
 
 .socials-container {
     display: flex;

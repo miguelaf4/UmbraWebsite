@@ -20,25 +20,21 @@ const Header = () => {
                 <a href="#"><img src={Logo} alt="Umbra Logo"/></a>
             </div>
             <div className="nav-container">
-                <div  className="nav-element">
-                    <Link  to="concepto" spy={true} smooth={true} duration={1000} offset={-80}> CONCEPTO </Link>
-                </div>
-                <div  className="nav-element">
-                <Link  to="/" spy={true} smooth={true} duration={1000} offset={-80}> DEPARTAMENTOS </Link>
-                    
-                </div>
-                <div   className="nav-element">
-                <Link  to="lifestyle" spy={true} smooth={true} duration={1000} offset={-80}> LIFESTYLE </Link>
-                    
-                </div>
-                <div   className="nav-element">
-                <Link to="location" spy={true} smooth={true} duration={1000} offset={-80}> UBICACIÓN </Link>
-                    
-                </div>
-                <div href="/"  className="nav-element">
-                <Link  to="contacto" spy={true} smooth={true} duration={1000} offset={-80}> CONTACTO </Link>
-                    
-                </div>
+                <Link  className="nav-element" to="concepto" spy={true} smooth={true} duration={1000} offset={-80}>
+                        CONCEPTO 
+                </Link>
+                <Link  className="nav-element" to="depa" spy={true} smooth={true} duration={1000} offset={-80}>
+                        DEPARTAMENTOS 
+                </Link>
+                <Link  className="nav-element" to="lifestyle" spy={true} smooth={true} duration={1000} offset={-80}>
+                        LIFESTYLE 
+                </Link>
+                <Link  className="nav-element" to="location" spy={true} smooth={true} duration={1000} offset={-80}>
+                        UBICACIÓN 
+                </Link>
+                <Link  className="nav-element" to="contacto" spy={true} smooth={true} duration={1000} offset={-80}>
+                        CONTACTO 
+                </Link>
                
                 
             </div>
@@ -78,7 +74,7 @@ const Header = () => {
                     <Link to="concepto" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                     <li>CONCEPTO</li> 
                     </Link>
-                    <Link to="/" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
+                    <Link to="depa" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">
                         <li>DEPARTAMENTOS</li>
                     </Link>
                     <Link to="lifestyle" spy={true} smooth={true} duration={1000} offset={-80} className="nav-element">

@@ -11,8 +11,12 @@ const Location = () => {
     return (
         <div className="location-container responsive-layout" id="location">
             
+            
             <div className="img-carousel w-sm-100">
-                <img src={Mapa} alt="Mapa Umbra"/>
+                 <a href="https://goo.gl/maps/gkx6K85rHKF2wwaF7" target="_blank">
+                    <img src={Mapa} alt="Mapa Umbra"/>
+                </a>
+                
             </div>
             
             <div className="info-location-container w-sm-100">

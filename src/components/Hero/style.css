@@ -30,6 +30,10 @@
     border-radius: 15px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btn-light {
     box-sizing: border-box;
     border: 1px solid white;
@@ -53,7 +57,7 @@
 
 @media (max-width: 1024px) {
     .hero-container {
-        background-image: url("../../images/hero2.jpg");
+        background-image: url("../../images/hero2-min.jpg");
     }
 }
 

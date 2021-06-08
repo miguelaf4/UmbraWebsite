@@ -9,15 +9,16 @@ const Form = () => {
                 <h1>Es momento de obtener tu lugar verdadero</h1>  
                 <br/>
                 <p>
-                Llena el fomrulario para recibir más información.
+                Llena el formulario para recibir más información.
                 </p>
                 <br/>
                 <form action="https://formsubmit.co/c2bd1a406c5ededf22c82068a3d714bf" method="POST">
                     <select id='depto_form' name='Departamento de interés'>
                         <option disabled selected class='ejemplo'>¿Cuál departamento te interesa</option>
-                        <option value='1'>1</option>
-                        <option value='2'>2</option>
-                        <option value='3'>3</option>
+                        <option value='grey'>Grey</option>
+                        <option value='white'>White</option>
+                        <option value='black'>Black</option>
+                        <option value='duplex'>Duplex</option>
                     </select>
                     <input type="text" class='fullname' name='Nombre Cliente' id='nombre' placeholder='Nombre Completo'></input>
                     <div className="row-contact">

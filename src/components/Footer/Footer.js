@@ -36,7 +36,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className="menu-container d-none d-md-block">
+            {/* <div className="menu-container d-none d-md-block">
                 <span>Menú</span>
                 <ul>
                     <li><a href="/">Inicio</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <li><a href="#location">Ubicación</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
-            </div>
+            </div> */}
             <div className="horario-container d-none d-md-block">
                 <span>Horarios de oficina</span>
                 <p>Con gusto te recibimos en nuestras oficinas en los siguientes horarios:</p>

@@ -27,7 +27,7 @@ const IndexPage = () => (
     <Hero/>
     <Section1/>
     <Section2/>
-    {/* <Map/> */}
+    <Map/>
     <Lifestyle />
     <Location />
     <Form/>
