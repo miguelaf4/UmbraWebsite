@@ -64,7 +64,7 @@ export class Room extends Component {
             m2: "81",
             bed: "2",
             bath: "2",
-            car: "2",
+            car: "1",
             img: Black
         });
     }
