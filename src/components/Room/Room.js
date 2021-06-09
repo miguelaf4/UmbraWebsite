@@ -77,7 +77,7 @@ export class Room extends Component {
             m2: "73",
             bed: "1",
             bath: "1.5",
-            car: "2",
+            car: "1",
             img: Duplex
         });
     }

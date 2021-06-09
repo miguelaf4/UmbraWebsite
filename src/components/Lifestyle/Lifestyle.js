@@ -43,7 +43,6 @@ const Lifestyle = () => {
                         <ul>
                             <li> <img src={Security} alt="Security Camera"/> Seguridad</li>
                             <li> <img src={Elevator} alt="Elevator"/> Elevador</li>
-                            <li> <img src={Parking} alt="Parking Sign"/> Estacionamiento de visitas</li>
                             <li> <img src={Trash} alt="Trash"/> Shut de basura en cada nivel</li>
                         </ul>
                     </div>
