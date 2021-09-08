@@ -21,7 +21,10 @@ const Footer = () => {
                     </div>
                     <div className="email-cotainer">
                         <span>EMAIL</span>
-                        <p>contacto@umbramx.com</p>
+                        <a href="mailto:contacto@umbramx.com">
+                            <p>contacto@umbramx.com</p>
+                        </a>
+                        
                     </div>
                 </div>
                 <div className="socials-footer-container">
@@ -60,7 +63,10 @@ const Footer = () => {
                 <span>Un desarrollo de:</span>
                 <img src={Alquimia} alt="Alquimia Logo"/>
                 <span>En colaboración con:</span>
-                <img src={Arkm} alt="Arkkam Logo"/>
+                <a href="https://www.arkhamprojects.com/" target="_blank">
+                    <img src={Arkm} alt="Arkkam Logo"/>
+                </a>
+                
             </div>
         </div>
     )
