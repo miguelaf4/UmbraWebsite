@@ -5,7 +5,7 @@
     height: 100vh;
     padding-left: 15%;
     
-    background-image: url("../../images/hero2.jpg");
+    background-image: url("../../images/FAC_FRONTAL_ACCESO.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,11 +55,11 @@
 
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .hero-container {
-        background-image: url("../../images/hero2-min.jpg");
+        background-image: url("../../images/FAC_FRONTAL_ACCESO.jpg");
     }
-}
+} */
 
 @media (max-width: 767.98px) {
     .hero-container {

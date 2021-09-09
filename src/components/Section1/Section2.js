@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-import Edificio from '../../images/19.jpg'
+import Edificio from '../../images/FAC_ESTACIONAMIENTO.jpg'
 
 const Section2 = () => {
     return (

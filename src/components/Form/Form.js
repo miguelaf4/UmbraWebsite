@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import Edificio from '../../images/08d.jpg'
+import Edificio from '../../images/FAC_E_2.jpg'
 
 const Form = () => {
     return (
