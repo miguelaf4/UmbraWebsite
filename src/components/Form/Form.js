@@ -12,7 +12,7 @@ const Form = () => {
                 Llena el formulario para recibir más información.
                 </p>
                 <br/>
-                <form action="https://formsubmit.co/c2bd1a406c5ededf22c82068a3d714bf" method="POST">
+                <form action="https://formsubmit.co/ventas@alquimiainvestment.com" method="POST">
                     <select id='depto_form' name='Departamento de interés'>
                         <option disabled selected class='ejemplo'>¿Cuál departamento te interesa?</option>
                         <option value='grey'>Grey</option>
