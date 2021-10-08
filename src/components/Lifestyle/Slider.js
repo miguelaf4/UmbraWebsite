@@ -16,6 +16,8 @@ import Img22 from '../../images/22.jpg'
 import Img21 from '../../images/21.jpg'
 import Img5 from '../../images/05.jpg'
 import Img35 from '../../images/35.jpg'
+import Img101 from '../../images/101.jpg'
+import Img102 from '../../images/102.jpg'
 import "./style.css";
 
 
@@ -51,6 +53,8 @@ export default function Slider() {
   <SwiperSlide> <img src={Img21} alt="" srcset="" /> </SwiperSlide>
   <SwiperSlide> <img src={Img22} alt="" srcset="" /> </SwiperSlide>
   <SwiperSlide> <img src={Img35} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Img101} alt="" srcset="" /> </SwiperSlide>
+  <SwiperSlide> <img src={Img102} alt="" srcset="" /> </SwiperSlide>
   </Swiper>
     </>
   )
