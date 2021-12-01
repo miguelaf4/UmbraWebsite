@@ -12,7 +12,7 @@ const Scan = () => {
             <div className="qr-container">
                <QRCode className="qr-code" value="https://umbramx.com/Brochure-UmbraTrueLiving.pdf" renderAs="pdf" />
             </div>
-            <a href={PDF} className="btn btn-dark" download>Descargar 
+            <a href="https://umbramx.com/Brochure-UmbraTrueLiving.pdf" className="btn btn-dark" download>Descargar 
 
             
             </a>
