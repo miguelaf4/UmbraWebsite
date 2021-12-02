@@ -26,7 +26,7 @@ const Footer = () => {
                         </a> 
                     </div>
                     <div className='tel-container'>
-                        <a href="https://umbramx.com/aviso-term">
+                        <a href="https://umbramx.com/aviso-priv">
                         <span>AVISO DE PRIVACIDAD</span>
                         </a>
                     </div>
