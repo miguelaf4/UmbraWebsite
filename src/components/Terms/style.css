@@ -1,0 +1,56 @@
+.terms-container {
+    display: flex;
+    background-color: black;
+    color: rgb(185, 185, 185);
+    padding: 30px 20px 30px;
+    font-size: 19px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.terms-container span {
+    text-transform: uppercase;
+    font-family: 'Trade';
+}
+
+
+
+.datos-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right:5rem;
+}
+.datos-container p{
+    margin-bottom: 2rem;
+}
+.datos-container li{
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.datos-container ol{
+    margin-bottom: 1rem;
+}
+
+
+
+.datos-inner-container {
+    display: flex;
+}
+
+
+
+
+@media (max-width: 767.98px) {
+    .logos-container {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .datos-container{
+        margin-left: 2rem;
+        margin-right:2rem;
+    }
+}

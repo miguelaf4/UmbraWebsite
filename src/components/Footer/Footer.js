@@ -23,8 +23,12 @@ const Footer = () => {
                         <span>EMAIL</span>
                         <a href="mailto:contacto@umbramx.com">
                             <p>contacto@umbramx.com</p>
+                        </a> 
+                    </div>
+                    <div className='tel-container'>
+                        <a href="https://umbramx.com/aviso-term">
+                        <span>AVISO DE PRIVACIDAD</span>
                         </a>
-                        
                     </div>
                 </div>
                 <div className="socials-footer-container">

@@ -17,7 +17,7 @@ const Header = () => {
         <nav role="navigation" className="header-container">
 
             <div className="logo-container">
-                <a href="#"><img src={Logo} alt="Umbra Logo"/></a>
+                <a href="https://umbramx.com"><img src={Logo} alt="Umbra Logo"/></a>
             </div>
             <div className="nav-container">
                 <Link  className="nav-element" to="concepto" spy={true} smooth={true} duration={1000} offset={-80}>
